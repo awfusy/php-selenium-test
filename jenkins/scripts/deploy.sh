@@ -6,5 +6,5 @@ sleep 1
 set +x
 
 echo 'Now...'
-echo 'Visit http://192.168.1.11 to see your PHP application in action.'
+echo 'Visit http://127.0.0.1:5000 to see your PHP application in action.'
 
