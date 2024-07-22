@@ -2,7 +2,7 @@
 
 set -x
 docker run -d -p 80:80 --name my-apache-php-app -v  /mnt/d/ICT2216/jenkins-phpunit-test/src:/var/www/html php:7.2-apache
-sleep 1g
+sleep 1
 set +x
 
 echo 'Now...'
